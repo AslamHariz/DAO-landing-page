@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&family=Oswald:wght@300&family=Poppins:wght@200&family=Red+Rose:wght@300&family=Roboto:wght@100;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", cursive;
+  color: #fff;
+}
+
+nav.navbar {
+  background-color: #1f1f1f;
+  padding-bottom: 40px;
+}
+
+img.logo {
+  margin-top: 25px;
+  margin-left: 60px;
+  margin-bottom: -20px;
+}
+
+.vl {
+  border-left: 6px solid #fff;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  margin-left: -520px;
+  margin-top: 17px;
+  top: 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 350px;
+  margin-top: -11px;
+  margin-bottom: auto;
+  padding: 0;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+i.fa-solid.fa-angle-down {
+  margin-left: 10px;
+}
+
+.list-item {
+  margin-right: 50px;
+  margin-top: -10px;
+  font-size: 20px;
+}
+
+.token {
+  margin-top: -35px;
+}
+
+.button-small {
+  border: 0;
+  margin-left: 1300px;
+  margin-top: 5px;
+  line-height: 2.5;
+  padding: 3px 25px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #8d3daf;
+  cursor: pointer;
+}
+
+section {
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: center;
+  background-position-y: 0;
+}
+
+h1.hero-heading {
+  font-size: 80px;
+  text-align: center;
+  padding-top: 180px;
+  text-indent: -50px;
+}
+
+p.hero-description {
+  text-align: center;
+  font-size: 30px;
+}
+
+button.button-large {
+  border: 0;
+  margin-top: 50px;
+  margin-left: 43%;
+  margin-bottom: 400px;
+  line-height: 2.5;
+  padding: 10px 40px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #8d3daf;
+  cursor: pointer;
+}
